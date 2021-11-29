@@ -7,7 +7,18 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h2>Welcome to your Todo App!</h2>
+        <h2>Todos</h2>
+        <ul>
+          <li>Breakfast</li>
+          <li>Coffee</li>
+          <li>Read</li>
+        </ul>
+        <form>
+          <input/>
+          <button> Add</button>
+        </form>
+        
+        <button>Clear</button>
       </div>
     );
   }
